@@ -1,3 +1,5 @@
+%718091 Stefan Benox
+%715023 Tobias Falk
 %fuktion erstellt anhand der adsr parameter die entsprechende kurve
 function [E] = envel(relDuration,fullDuration,fs)
     t = relDuration*fullDuration*fs;

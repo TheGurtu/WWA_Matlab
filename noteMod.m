@@ -1,3 +1,5 @@
+%718091 Stefan Benox
+%715023 Tobias Falk
 %funktion generiert Ton abhaenig von der Tastennummer keynum und kann
 %punktweise multipliziert werden
 function [tone] = note(keynum,relDuration,fullDuration,fs,A)
