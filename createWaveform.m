@@ -1,3 +1,5 @@
+%718091 Stefan Benox
+%715023 Tobias Falk
 %% Aufgabe 1
 function [sinusoid] = createWaveform(frequency,fs,duration,A)
 n = 0:(duration*fs)
