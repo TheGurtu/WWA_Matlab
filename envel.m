@@ -12,5 +12,5 @@ function [E] = envel(relDuration,fullDuration,fs)
     sVec = 0:s;
     rVec = 0:r;
     %funktion aufgeteilt in vier segmente a,d,s,r
-    E =[((1/a)*avec),(-((1/d)/5)*dVec+1),(-((1/s)/10)*sVec+0.8), (-((1/r)*0.7)*rVec+0.7)];
+    E =[((1/a)*aVec),(-((1/d)/5)*dVec+1),(-((1/s)/10)*sVec+0.8), (-((1/r)*0.7)*rVec+0.7)];
 end
